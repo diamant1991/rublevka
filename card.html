@@ -22,7 +22,7 @@
   					<div class="block-vertical">
   						<a href="#">
   							<p class="logo__title">Дома на Рублевке</p>
-  							<p class="logo__text">Продажа домов на Рублево-Успенском шоссе</p>
+  							<p class="logo__text hidden-xs">Продажа домов на Рублево-Успенском шоссе</p>
   						</a>
   					</div>
   				</div>
@@ -30,10 +30,10 @@
   			<div class="header__contact">
   				<div class="table-block">
   					<div class="block-vertical">
-  						<div class="header__tel">
+  						<div class="header__tel hidden-xs">
   							<span>8 (654)</span> 745-89-36
   						</div>
-  						<div class="header__link">
+  						<div class="header__link hidden-xs">
   							<a href="#">Запомнить сайт</a>
   						</div>
   						<div class="header__lang">
@@ -57,7 +57,7 @@
   				<div class="table-block">
   					<div class="block-vertical">
   						<a href="#">
-  							<span class="nav__icon">
+  							<span class="nav__icon hidden-xs">
   								<img src="img/main.png" alt="">
   							</span>
   							<span class="nav__text">Главная</span>
@@ -69,7 +69,7 @@
   				<div class="table-block">
   					<div class="block-vertical">
   						<a href="#">
-  							<span class="nav__icon">
+  							<span class="nav__icon hidden-xs">
   								<img src="img/sale.png" alt="">
   							</span>
   							<span class="nav__text">Продажа домов</span>
@@ -81,7 +81,7 @@
   				<div class="table-block">
   					<div class="block-vertical">
   						<a href="#">
-  							<span class="nav__icon">
+  							<span class="nav__icon hidden-xs">
   								<img src="img/arends.png" alt="">
   							</span>
   							<span class="nav__text">Аренда домов</span>
@@ -93,7 +93,7 @@
   				<div class="table-block">
   					<div class="block-vertical">
   						<a href="#">
-  							<span class="nav__icon">
+  							<span class="nav__icon hidden-xs">
   								<img src="img/contact.png" alt="">
   							</span>
   							<span class="nav__text">Наши контакты</span>
@@ -133,7 +133,7 @@
                     <img src="img/product.jpg" alt="">
                   </li>
                 </ul>
-                <div id="product-pager" class="thumb clearfix">
+                <div id="product-pager" class="thumb hidden-xs clearfix">
                   <a data-slide-index="0" href="">
                     <img src="img/product.jpg" alt="">
                   </a>
@@ -417,7 +417,7 @@
         </a>
       </div>
       <div class="similar__list clearfix">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
           <div class="row">
             <div class="similar__item">
               <a href="#">
@@ -451,7 +451,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
           <div class="row">
             <div class="similar__item">
               <a href="#">
@@ -482,7 +482,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
           <div class="row">
             <div class="similar__item">
               <a href="#">
@@ -516,7 +516,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
           <div class="row">
             <div class="similar__item">
               <a href="#">
@@ -558,7 +558,7 @@
        <h4 class="inner-small-title">Последние просмотренные</h4>
       </div>
       <div class="similar__list clearfix">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6">
           <div class="row">
             <div class="similar__item">
               <a href="#">
@@ -600,7 +600,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__wrapp clearfix">
-        <div class="col-lg-9">
+        <div class="col-md-9">
           <div class="row">
           <div class="footer__contact">
               <a href="#" class="help-link">
@@ -630,7 +630,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="row">
             <div class="footer__logo">
               <div class="table-block">
@@ -647,7 +647,91 @@
       </div>
     </div>
   </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="get-call" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a href="#" class="modal__close" data-dismiss="modal" aria-label="Close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </a>
+          <div class="table-block">
+            <div class="block-vertical">
+              <h4 class="modal-title">Заказ звонка</h4>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Имя:
+              </label>
+              <input type="text" class="our-contacts__input">
+            </div>
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Телефон:
+              </label>
+              <input type="text" class="our-contacts__input">
+            </div>
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Пожелание:
+              </label>
+              <textarea class="our-contacts__textarea"></textarea>
+            </div>
+            <div class="our-contacts__item">
+              <input type="submit" value="Отправить" class="our-contacts__submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   
+  <!-- Modal -->
+  <div class="modal fade" id="application" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a href="#" class="modal__close" data-dismiss="modal" aria-label="Close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </a>
+          <div class="table-block">
+            <div class="block-vertical">
+              <h4 class="modal-title">заявка на приобритение</h4>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Имя:
+              </label>
+              <input type="text" class="our-contacts__input">
+            </div>
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Телефон:
+              </label>
+              <input type="text" class="our-contacts__input">
+            </div>
+            <div class="our-contacts__item">
+              <label for="" class="our-contacts__label">
+                Пожелание:
+              </label>
+              <textarea class="our-contacts__textarea"></textarea>
+            </div>
+            <div class="our-contacts__item">
+              <input type="submit" value="Отправить" class="our-contacts__submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="js/vendor.js"></script>
 <script src="js/main.js"></script>
