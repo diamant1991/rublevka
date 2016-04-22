@@ -2066,7 +2066,8 @@ img {
   text-transform: uppercase;
   color: #ae9277;
   font-size: 14px;
-  font-family: 'Lato-Bold';
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -2119,6 +2120,12 @@ img {
   color: #333333;
   font-family: 'Lato-Light';
   line-height: 1.5;
+  margin-bottom: 10px;
+}
+.village__link {
+  color: #ae9277;
+  text-decoration: underline;
+  font-size: 14px;
 }
 .delimiter {
   display: inline-block;
@@ -2953,8 +2960,9 @@ img {
   float: left;
   text-transform: uppercase;
   color: #ae9277;
-  letter-spacing: 1px;
-  font-family: 'Lato-Bold';
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   font-size: 14px;
   padding-top: 7px;
 }

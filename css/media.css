@@ -38,6 +38,13 @@
   .visible-sm {
     display: none !important;
   }
+  .wrapp {
+    min-height: 100%;
+    padding-bottom: 65px;
+  }
+  .footer {
+    margin-top: -65px;
+  }
 }
 @media (max-width: 991px) {
   .logo__text {
