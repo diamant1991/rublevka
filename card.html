@@ -113,9 +113,9 @@
             <div class="row">
               <article class="content__center">
                 <div class="product__link clearfix">
-                  <a href="#" class="active">Галерея</a>
-                  <a href="#">Карта</a>
-                  <a href="#">Спутник</a>
+                  <a href="#" class="active" onclick="opcl(mydivs,'.product__carousel'); return false;">Галерея</a>
+                  <a href="#" onclick="opcl(mydivs,'.product__map'); return false;">Карта</a>
+                  <a href="#" onclick="opcl(mydivs,'.product__sputnik'); return false;">Спутник</a>
                 </div>
                 <div class="product__carousel">
                   <ul class="bxslider" id="product">
@@ -152,6 +152,12 @@
                       <img src="img/product.jpg" alt="">
                     </a>
                   </div>
+                </div>
+                <div class="product__map">
+                  Карта
+                </div>
+                <div class="product__sputnik">
+                  Спутник
                 </div>
                 <div class="product__after-link clearfix">
                   <div class="product__back">

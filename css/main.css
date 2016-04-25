@@ -2406,6 +2406,10 @@ img {
   padding: 30px 0;
   padding-bottom: 60px;
 }
+.product__map,
+.product__sputnik {
+  display: none;
+}
 .product__link a {
   display: block;
   width: 33.3%;
